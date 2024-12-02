@@ -95,7 +95,8 @@ public class Algoritmo {
         for (List<Integer> rota : entregas) {
             if (rota.get(0) != 0) {
                 rota.add(0, 0); // Insere a origem no começo, se necessário
-            }if (rota.get(rota.size() - 1) != 0) {
+            }
+            if (rota.get(rota.size() - 1) != 0) {
                 rota.add(0); // Adiciona a origem no final, se necessário
             }
         }

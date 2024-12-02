@@ -24,6 +24,7 @@ public class Algoritmo {
 
         List<Integer> rotaAtual = new ArrayList<>();
         int entregadorIndex = 0;
+
         double tempoTotalEntregador = 0;
         System.out.println("Entregadores Disponiveis: " + entregadoresDisponiveis);
 
